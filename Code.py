@@ -122,4 +122,10 @@ else:
         Sheet[f'D{b}'].font = Font(bold=True)
         Sheet.column_dimensions['C'].width = 27.33
     book.save(str(Vehicle_name) + ".xlsx")
+    print("""
+    The Limit for the Vehicles based on capacity of engine the rules and
+    regulations are set as follows:
+    1. from 80cc to 175cc the limit is 77dB.
+    2. above 175cc the limit is 80dB.
+    """)
     print(f"Data is saved in Excel file named as {Vehicle_name}.")
