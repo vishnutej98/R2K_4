@@ -19,7 +19,7 @@ else:
     PI = round(pi, 4)
     book = Workbook()
     Sheet = book.active
-    Vehicle_name = str(input("Enter the Vehicle Name: "))
+    Vehicle_name = str(input("Enter the Vehicle Name: ")).title()
     print(f"The Data is Calculated for {Vehicle_name}.")
     P = float(input("Primary Gear Ratio: "))  # Primary Transmission Ratio.
     S = float(input("Secondary Gear Ratio: "))  # Secondary Transmission Ratio.
