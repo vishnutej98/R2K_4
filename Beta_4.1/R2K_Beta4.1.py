@@ -120,7 +120,7 @@ else:
         file.close()
 
         # Ref 2import
-        #  from fpdf import FPDF
+        # from fpdf import FPDF
 
         pdf = FPDF()
         pdf.add_page()
@@ -133,9 +133,9 @@ else:
 
     elif user_input == 2:
         # Ref 3import
-        #  from openpyxl import Workbook
+        # from openpyxl import Workbook
         # Ref 4import
-        #  from openpyxl.styles import Font
+        # from openpyxl.styles import Font
 
         book = Workbook()
         Sheet = book.active
